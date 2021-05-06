@@ -14,7 +14,7 @@ public class UserDAO {
         try{
             String dbURL = "jdbc:mysql://localhost:3306/simpleboard";
             String dbID = "root";
-            String dbPW = "kusa1230";
+            String dbPW = "root";
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(dbURL, dbID, dbPW);
             System.out.println(conn);
